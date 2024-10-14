@@ -122,7 +122,10 @@ const RegistryPage = () => {
           <Input.Password maxLength={16} />
         </Form.Item>
 
-        <Flex gap="24px">
+        <Flex
+          gap="24px"
+          className="flex-col md:flex-row mt-[40px] md:mt-0  mb-12 md:mb-0"
+        >
           <Button
             block
             htmlType="submit"

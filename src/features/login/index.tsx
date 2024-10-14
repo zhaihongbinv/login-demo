@@ -128,7 +128,7 @@ const LoginPage = () => {
             <Checkbox>记住我</Checkbox>
           </Form.Item>
           <Link to="/registry" className="h-[32px] leading-[32px]">
-            还没账号？前往注册
+            注册账号
           </Link>
         </Flex>
 
