@@ -3,7 +3,18 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    font-size: 16px;
+  }
+
   body {
-    @apply m-0;
+    background-color: #ffffff;
+    background-image: url("./assets/bg.png");
+    background-repeat: repeat;
+  }
+
+  #root {
+    height: 100vh;
+    @apply flex flex-col justify-center items-center;
   }
 }
